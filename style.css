@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+#score{
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: medium;
+    
+}
+#timer{
+    float: right;
+    font-weight: medium;
+    margin-right: 5px;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(162, 198, 240);
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    background-color: cornsilk;
+    font-weight: bolder;
+    color: rgb(19, 11, 66);
+}
+#show_sketch{
+    float: right;
+}
+p{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+#sketch_to_be_drawn{
+    font-size: 25px;
+    color: rgb(0, 4, 255);
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px blue;}
+  to {box-shadow: 1px 1px 38px cyan;}
+
+}
